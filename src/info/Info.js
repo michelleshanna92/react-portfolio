@@ -2,7 +2,7 @@ import self from "../img/self.png"
 import mock1 from "../img/mock1.png"
 
 
-export let colors = ["rgb(198, 179, 141), rgb(19, 128, 133)"];
+export let colors = ["rgb(198, 179, 141)", "rgb(19, 128, 133)"];
 
 
 export const info = {
@@ -11,7 +11,7 @@ export const info = {
     initials: "MC",
     position: "a Full Stack Developer",
     selfPortrait: self, 
-    gradient: `-webkit-linear-gradient(135deg, ${colors})`,
+    gradient: `-webkit-linear-gradient(135deg, ${colors[0]}, ${colors[1]})`,
     baseColor: colors[0],
     miniBio: [
         {
